@@ -1,4 +1,4 @@
-# GasStation：租 TRON Energy，降手续费（文档 + FAQ）
+# GasStation：租 TRON Energy，最高降 90% 手续费（文档 + FAQ）
 
 [English](README.md) | 简体中文
 

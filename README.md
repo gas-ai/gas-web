@@ -1,4 +1,4 @@
-# GasStation: Rent TRON Energy, Cut Fees (Docs + FAQ)
+# GasStation: Rent TRON Energy, Cut Fees by Up to 90% (Docs + FAQ)
 
 English | [简体中文](README.zh-CN.md)
 
