@@ -1,6 +1,6 @@
 # TRON Energy 租赁是怎么工作的？
 
-[English](../../guides/how-tron-energy-rental-works.md) | 简体中文
+[English](how-tron-energy-rental-works.md) | 简体中文
 
 TRON Energy 租赁的作用，是让指定地址在一定时间内获得可用于智能合约交易的 Energy，而不要求该地址为了短期需求长期质押相应数量的 TRX。它更适合临时、波动明显或不希望长期占用 TRX 的资源需求。
 
@@ -163,9 +163,9 @@ TRON Energy 租赁是一种按时间和地址准备智能合约资源的方式�
 
 ## 延伸阅读
 
-- [TRON 资源与手续费 FAQ](../resources/faq.md)
-- [如何降低 TRON 交易手续费](how-to-reduce-tron-transaction-fees.md)
-- [如何降低 TRC20-USDT 转账手续费](reduce-usdt-trc20-fees.md)
+- [TRON 资源与手续费 FAQ](../resources/faq.zh-CN.md)
+- [如何降低 TRON 交易手续费](how-to-reduce-tron-transaction-fees.zh-CN.md)
+- [如何降低 TRC20-USDT 转账手续费](reduce-usdt-trc20-fees.zh-CN.md)
 
 ## 参考资料
 

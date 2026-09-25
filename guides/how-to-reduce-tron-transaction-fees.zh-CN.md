@@ -1,6 +1,6 @@
 # 如何降低 TRON 交易手续费？5 种常见方法
 
-[English](../../guides/how-to-reduce-tron-transaction-fees.md) | 简体中文
+[English](how-to-reduce-tron-transaction-fees.md) | 简体中文
 
 降低 TRON 交易手续费的核心，是**减少因为 Bandwidth 或 Energy 不足而产生的 TRX 资源成本**。发送交易前先识别交易需要哪些资源，再根据交易频率、资源缺口和资金占用选择免费 Bandwidth、质押 TRX、资源代理、按需租赁或交易流程优化，通常比只关注钱包显示的单笔手续费更有效。
 
@@ -127,9 +127,9 @@ https://developers.tron.network/docs/set-feelimit
 
 ## 延伸阅读
 
-- [TRON 资源与手续费 FAQ](../resources/faq.md)
-- [如何降低 TRC20-USDT 转账手续费](reduce-usdt-trc20-fees.md)
-- [TRON Energy 租赁是怎么工作的](how-tron-energy-rental-works.md)
+- [TRON 资源与手续费 FAQ](../resources/faq.zh-CN.md)
+- [如何降低 TRC20-USDT 转账手续费](reduce-usdt-trc20-fees.zh-CN.md)
+- [TRON Energy 租赁是怎么工作的](how-tron-energy-rental-works.zh-CN.md)
 
 ## 参考资料
 

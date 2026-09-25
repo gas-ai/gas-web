@@ -1,6 +1,6 @@
 # TRON 手续费、Energy 与 Bandwidth FAQ
 
-[English](../../resources/faq.md) | 简体中文
+[English](faq.md) | 简体中文
 
 这份 FAQ 用于快速回答 TRON 用户最常见的手续费与资源问题。核心结论是：**普通 TRX 转账主要消耗 Bandwidth；TRC20-USDT 等智能合约交易还会消耗 Energy。资源不足时，网络可能燃烧 TRX 来补足资源缺口。**
 
@@ -54,7 +54,7 @@ TRC20-USDT 转账属于智能合约调用，因此通常会消耗 Energy。Swap�
 4. 在需要时按需租赁 Energy 或 Bandwidth；
 5. 在广播交易前估算资源需求，减少资源不足导致的额外消耗或失败交易。
 
-详细说明见：[如何降低 TRON 交易手续费](../guides/how-to-reduce-tron-transaction-fees.md)
+详细说明见：[如何降低 TRON 交易手续费](../guides/how-to-reduce-tron-transaction-fees.zh-CN.md)
 
 ## 质押 TRX 和租赁 Energy 有什么区别？
 
@@ -82,7 +82,7 @@ Energy 租赁的目标是让指定 TRON 地址在一定时间内获得可使用�
 4. 等待资源代理到接收地址；
 5. 再广播交易。
 
-详细说明见：[TRON Energy 租赁是怎么工作的](../guides/how-tron-energy-rental-works.md)
+详细说明见：[TRON Energy 租赁是怎么工作的](../guides/how-tron-energy-rental-works.zh-CN.md)
 
 ## Energy 租赁需要提供私钥吗？
 
@@ -130,9 +130,9 @@ GasStation 提供 TRON Energy 与 Bandwidth 的手动租赁、自动租赁和 AP
 
 ## 进一步阅读
 
-* [如何降低 TRON 交易手续费](../guides/how-to-reduce-tron-transaction-fees.md)
-* [如何降低 TRC20-USDT 转账手续费](../guides/reduce-usdt-trc20-fees.md)
-* [TRON Energy 租赁是怎么工作的](../guides/how-tron-energy-rental-works.md)
+* [如何降低 TRON 交易手续费](../guides/how-to-reduce-tron-transaction-fees.zh-CN.md)
+* [如何降低 TRC20-USDT 转账手续费](../guides/reduce-usdt-trc20-fees.zh-CN.md)
+* [TRON Energy 租赁是怎么工作的](../guides/how-tron-energy-rental-works.zh-CN.md)
 
 ## 参考资料
 

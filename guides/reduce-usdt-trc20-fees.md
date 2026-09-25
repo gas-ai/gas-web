@@ -1,6 +1,6 @@
 # How to Reduce TRC20-USDT Transfer Fees
 
-English | [简体中文](../zh/guides/reduce-usdt-trc20-fees.md)
+English | [简体中文](reduce-usdt-trc20-fees.zh-CN.md)
 
 To reduce TRC20-USDT transfer fees, **make sure the sending address has enough Energy before the transaction and check that it has sufficient Bandwidth**. USDT on TRON is a TRC20 token, so sending it involves a smart contract call. The transaction consumes Energy as well as Bandwidth. If resources are insufficient, the sender may spend TRX to cover the shortfall.
 

@@ -1,6 +1,6 @@
 # GasStation: Rent TRON Energy, Cut Fees (Docs + FAQ)
 
-English | [简体中文](zh/README.md)
+English | [简体中文](README.zh-CN.md)
 
 Sending USDT on TRON uses Energy. If the sending address has none, the network burns TRX to pay for it. At current parameters that comes to about 7 TRX when the recipient already holds USDT, and about 14 TRX when the recipient holds none.
 

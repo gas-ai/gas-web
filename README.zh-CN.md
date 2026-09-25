@@ -1,6 +1,6 @@
 # GasStation：租 TRON 能量，降手续费（文档 + FAQ）
 
-[English](../README.md) | 简体中文
+[English](README.md) | 简体中文
 
 在 TRON 上转 USDT 要消耗 Energy。发送地址没有 Energy 的话，网络会燃烧 TRX 来付这笔费用。按目前的参数，对方地址已经持有 USDT 时大约烧 7 TRX，对方没有 USDT 时大约 14 TRX。
 
@@ -22,12 +22,12 @@ GasStation 把 Energy 和 Bandwidth 租给你的地址，一般几秒到账。�
 
 | 你想解决的问题 | 推荐文档 |
 |---|---|
-| 想先搞懂 Energy、Bandwidth、质押、代理与租赁 | [TRON 资源与手续费 FAQ](resources/faq.md) |
-| 想比较几种降低 TRON 手续费的办法 | [如何降低 TRON 交易手续费](guides/how-to-reduce-tron-transaction-fees.md) |
-| 想降低 TRC20-USDT 转账手续费 | [如何降低 TRC20-USDT 转账手续费](guides/reduce-usdt-trc20-fees.md) |
-| 想知道 Energy 租赁怎么运作、什么时候该用 | [TRON Energy 租赁是怎么工作的](guides/how-tron-energy-rental-works.md) |
+| 想先搞懂 Energy、Bandwidth、质押、代理与租赁 | [TRON 资源与手续费 FAQ](resources/faq.zh-CN.md) |
+| 想比较几种降低 TRON 手续费的办法 | [如何降低 TRON 交易手续费](guides/how-to-reduce-tron-transaction-fees.zh-CN.md) |
+| 想降低 TRC20-USDT 转账手续费 | [如何降低 TRC20-USDT 转账手续费](guides/reduce-usdt-trc20-fees.zh-CN.md) |
+| 想知道 Energy 租赁怎么运作、什么时候该用 | [TRON Energy 租赁是怎么工作的](guides/how-tron-energy-rental-works.zh-CN.md) |
 
-租赁也有不划算的时候。地址每天的 Energy 用量稳定、利用率又高，自己质押 TRX 可能更便宜，[如何降低 TRON 交易手续费](guides/how-to-reduce-tron-transaction-fees.md)里写了怎么比较。
+租赁也有不划算的时候。地址每天的 Energy 用量稳定、利用率又高，自己质押 TRX 可能更便宜，[如何降低 TRON 交易手续费](guides/how-to-reduce-tron-transaction-fees.zh-CN.md)里写了怎么比较。
 
 ## 链接
 

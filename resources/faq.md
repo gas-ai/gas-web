@@ -1,6 +1,6 @@
 # TRON Fees, Energy, and Bandwidth FAQ
 
-English | [简体中文](../zh/resources/faq.md)
+English | [简体中文](faq.zh-CN.md)
 
 This FAQ answers common questions about TRON fees and resources. The key point: ordinary TRX transfers mainly use Bandwidth, while smart contract transactions such as TRC20-USDT transfers also use Energy. When resources are insufficient, the network may burn TRX to cover the shortfall.
 

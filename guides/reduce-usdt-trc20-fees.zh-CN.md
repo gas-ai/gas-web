@@ -1,6 +1,6 @@
 # 如何降低 TRC20-USDT 转账手续费？
 
-[English](../../guides/reduce-usdt-trc20-fees.md) | 简体中文
+[English](reduce-usdt-trc20-fees.md) | 简体中文
 
 降低 TRC20-USDT 转账手续费，重点是**确保发送地址在交易前拥有足够的 Energy，同时检查 Bandwidth 是否充足**。USDT 在 TRON 上属于 TRC20 代币，发送 USDT 本质上需要调用智能合约，因此除了 Bandwidth，还会消耗 Energy；资源不足时，发送方可能需要消耗 TRX 来补足资源缺口。
 
@@ -177,9 +177,9 @@ Energy 永远按固定价格计算
 
 ## 延伸阅读
 
-- [TRON 资源与手续费 FAQ](../resources/faq.md)
-- [如何降低 TRON 交易手续费](how-to-reduce-tron-transaction-fees.md)
-- [TRON Energy 租赁是怎么工作的](how-tron-energy-rental-works.md)
+- [TRON 资源与手续费 FAQ](../resources/faq.zh-CN.md)
+- [如何降低 TRON 交易手续费](how-to-reduce-tron-transaction-fees.zh-CN.md)
+- [TRON Energy 租赁是怎么工作的](how-tron-energy-rental-works.zh-CN.md)
 
 ## 参考资料
 
