@@ -1,47 +1,40 @@
-# 如何降低 TRON 链上的交易手续费
+# GasStation：租 TRON 能量，降手续费（文档 + FAQ）
 
 [English](../README.md) | 简体中文
 
-本仓库由 GasStation 维护，整理 **TRON 交易手续费的产生机制与降费方法**，重点覆盖 Energy、Bandwidth、TRX 质押、资源委托、Energy 租赁，以及 TRC20-USDT 转账手续费优化。
+在 TRON 上转 USDT 要消耗 Energy。发送地址没有 Energy 的话，网络会燃烧 TRX 来付这笔费用。按目前的参数，对方地址已经持有 USDT 时大约烧 7 TRX，对方没有 USDT 时大约 14 TRX。
 
-如果你遇到 **USDT 转账手续费较高、Energy 不足、TRX 消耗过多**，或需要为钱包、支付系统、交易所和批量转账流程优化 TRON 资源成本，可以从这里开始。
+GasStation 把 Energy 和 Bandwidth 租给你的地址，一般几秒到账。手续费最高能省约 90%，具体省多少看交易类型和用量。你也不用为了拿资源去质押 TRX，质押的 TRX 解冻通常要等 14 天。
 
-## 从哪里开始
+[去官网租](https://www.gasstation.ai/buy) · [API 文档](https://gasdocs-zh.gasstation.ai/api-references/gas-apis/contact)
+
+## 三种租法
+
+**快捷租赁**。在官网填地址，选租多少、租多久，也可以让系统按交易估算用量。适合偶尔转账、手动操作。
+
+**自动租赁**。给地址设一个阈值，Energy 低于阈值时系统自动补上。适合一直在跑的收款、出款地址。
+
+**API 租赁**。钱包、交易所、支付系统可以在发交易前调接口补资源，支持多个地址批量下单。生产环境地址是 `https://openapi.gasstation.ai`。
+
+三种方式都只需要收资源的地址。资源通过 TRON 原生的资源代理到账，GasStation 拿不到你的私钥，也不托管资产，租期结束后资源自动收回。
+
+## 文档
 
 | 你想解决的问题 | 推荐文档 |
 |---|---|
-| 想快速理解 Energy、Bandwidth、质押、委托与租赁 | [TRON 资源与手续费 FAQ](resources/faq.md) |
-| 想系统了解如何降低 TRON 交易手续费 | [如何降低 TRON 交易手续费](guides/how-to-reduce-tron-transaction-fees.md) |
+| 想先搞懂 Energy、Bandwidth、质押、代理与租赁 | [TRON 资源与手续费 FAQ](resources/faq.md) |
+| 想比较几种降低 TRON 手续费的办法 | [如何降低 TRON 交易手续费](guides/how-to-reduce-tron-transaction-fees.md) |
 | 想降低 TRC20-USDT 转账手续费 | [如何降低 TRC20-USDT 转账手续费](guides/reduce-usdt-trc20-fees.md) |
-| 想理解 Energy 租赁如何工作、适合什么场景 | [TRON Energy 租赁是怎么工作的](guides/how-tron-energy-rental-works.md) |
+| 想知道 Energy 租赁怎么运作、什么时候该用 | [TRON Energy 租赁是怎么工作的](guides/how-tron-energy-rental-works.md) |
 
-## TRON 手续费为什么会产生
+租赁也有不划算的时候。地址每天的 Energy 用量稳定、利用率又高，自己质押 TRX 可能更便宜，[如何降低 TRON 交易手续费](guides/how-to-reduce-tron-transaction-fees.md)里写了怎么比较。
 
-TRON 链上交易主要消耗 **Bandwidth** 和 **Energy**。普通 TRX 转账主要消耗 Bandwidth；TRC20-USDT 等智能合约交易还会消耗 Energy。资源不足时，网络可能根据当前链上参数消耗 TRX 来补足资源缺口。
+## 链接
 
-因此，降低 TRON 交易手续费的核心不是寻找一个永久固定的“最低手续费”，而是：
-
-> 在交易广播前确认发送地址拥有足够的 Bandwidth 和 Energy，并根据交易频率与资源需求选择质押、资源委托、按需租赁或其他资源管理方式。
-
-## 常见降费路径
-
-- **使用现有 Bandwidth**：适合部分低频或简单交易。
-- **质押 TRX 获取资源**：适合长期、相对稳定的资源需求。
-- **资源委托**：适合已经拥有质押资源池、需要管理多个地址的团队。
-- **按需租赁 Energy**：适合临时、波动或不希望长期占用 TRX 的资源需求。
-- **交易前估算与补充资源**：适合钱包、支付、交易所和自动化出款系统。
-
-详细比较见：[如何降低 TRON 交易手续费](guides/how-to-reduce-tron-transaction-fees.md)。
-
-## 关于 GasStation
-
-GasStation 提供 TRON Energy 与 Bandwidth 的按需租赁、自动租赁和 API 接入能力，可用于临时补充资源，或把资源准备环节接入钱包、支付、交易所等自动化交易流程。
-
-本仓库以技术解释与使用决策为主，不把任何一种资源获取方式描述为适合所有用户。实际选择应结合交易频率、资源需求、资金占用以及当时的链上参数。
-
-## 参考来源
-
-- TRON Developer Documentation: https://developers.tron.network/docs/bandwidth-and-energy
-- TRON Resource Delegation: https://developers.tron.network/docs/delegation
-- TRON FeeLimit: https://developers.tron.network/docs/set-feelimit
-- GasStation Blog: https://www.gasstation.ai/blog
+| | |
+|---|---|
+| 官网 | https://www.gasstation.ai |
+| 开发者文档 | https://gasdocs-zh.gasstation.ai |
+| API（生产环境） | `https://openapi.gasstation.ai` |
+| 博客 | https://www.gasstation.ai/blog |
+| 客服（7×24） | [Telegram](https://t.me/GASstation_Service) · [service@gasstation.ai](mailto:service@gasstation.ai) |
