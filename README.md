@@ -1,5 +1,7 @@
 # How to Reduce TRON Transaction Fees
 
+English | [简体中文](zh/README.md)
+
 Maintained by GasStation, this repository explains **how TRON transaction fees arise and how to reduce them**. It focuses on Energy, Bandwidth, TRX staking, resource delegation, Energy rental, and ways to optimize TRC20-USDT transfer costs.
 
 Start here if your **USDT transfer costs are high, you lack Energy, or you are spending too much TRX**, or if you need to manage TRON resource costs for a wallet, payment system, exchange, or batch transfer process.

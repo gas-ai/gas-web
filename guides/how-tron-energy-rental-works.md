@@ -1,5 +1,7 @@
 # How Does TRON Energy Rental Work?
 
+English | [简体中文](../zh/guides/how-tron-energy-rental-works.md)
+
 TRON Energy rental lets a designated address use Energy for smart contract transactions for a specified period without requiring that address to stake a corresponding amount of TRX over the long term. It is better suited to temporary or highly variable resource needs, or to situations where you do not want to commit TRX for the long term.
 
 Renting Energy does not transfer TRX to the user's address or require the user to give up control of the wallet's private key. Resources can be assigned to the target address through TRON's resource delegation mechanism.

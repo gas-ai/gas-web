@@ -1,5 +1,7 @@
 # How to Reduce TRON Transaction Fees: Five Common Approaches
 
+English | [简体中文](../zh/guides/how-to-reduce-tron-transaction-fees.md)
+
 The key to reducing TRON transaction fees is **to reduce the TRX spent when Bandwidth or Energy is insufficient**. Before sending a transaction, identify the resources it needs. Then choose among available Bandwidth, TRX staking, resource delegation, on-demand rental, and transaction workflow improvements based on transaction frequency, resource shortfalls, and capital requirements. This is generally more useful than looking only at the per-transaction fee shown by a wallet.
 
 There is no single solution for every address. An individual who sends USDT occasionally will usually need a different resource strategy from a wallet system that processes large numbers of TRC20 withdrawals every day.
