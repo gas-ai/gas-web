@@ -8,7 +8,7 @@ Whether renting TRON Energy is more economical than directly burning TRX depends
 
 Executing a transaction directly when resources are insufficient uses available Energy first, then burns TRX to pay for computation not covered by those resources. Rental involves paying for resources in advance so the sending address has usable Energy before execution. TRON's [resource payment mechanism](https://developers.tron.network/docs/paying-for-resources) explains the burn rules when resources are insufficient.
 
-Both paths still execute the same contract transaction. Rental changes how resources are prepared; it does not remove contract computation or automatically eliminate Bandwidth and other applicable costs. GasStation's [Quick Rental guide](https://gasdocs-en.gasstation.ai/product-description/product-introduction/quick-rental-of-trx-energy) identifies temporary, occasional demand as a use case and requires selecting a quantity, rental duration, and resource recipient address.
+Both paths still execute the same contract transaction. Rental changes how resources are prepared; it does not remove contract computation or automatically eliminate Bandwidth and other applicable costs. GasStation's [Quick Rent guide](https://gasdocs-en.gasstation.ai/product-description/product-introduction/quick-rental-of-trx-energy) identifies temporary, occasional demand as a use case and requires selecting a quantity, rental duration, and resource recipient address.
 
 ## Calculate the Resource Shortfall Before Estimating Direct Execution Costs
 
